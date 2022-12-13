@@ -1,0 +1,254 @@
+/*# sourceMappingURL=styles.css.map */
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: "Kanit", sans-serif;
+}
+
+header {
+  background-color: rgba(6, 6, 117, 0.795);
+}
+
+body {
+  background-image: url(../assets/header.jfif);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  font-family: "Kanit", sans-serif;
+}
+
+h1 {
+  color: rgba(2, 2, 128, 0.774);
+  font-weight: lighter;
+  font-size: 3rem;
+  text-align: center;
+  font-family: "Kanit", sans-serif;
+}
+
+h2 {
+  font-size: 3rem;
+  color: rgb(6, 6, 105);
+  margin-left: 5rem;
+}
+
+h3 {
+  color: rgb(14, 7, 121);
+  font-size: 2rem;
+}
+
+.label {
+  margin-left: 5rem;
+}
+
+.metodo-pago {
+  display: flex;
+  gap: 2rem;
+  line-height: 3rem;
+  color: rgb(0, 0, 0);
+  background-color: rgba(206, 199, 236, 0.493);
+  border: 2px solid rgb(0, 0, 2);
+  justify-content: center;
+  font-size: large;
+}
+
+footer {
+  color: white;
+  margin-top: 5rem;
+  margin-right: 3rem;
+}
+
+.copy {
+  display: flex;
+  justify-content: end;
+}
+
+.flex-container {
+  display: flex;
+  font-size: large;
+  font-weight: bold;
+  justify-content: center;
+  flex-wrap: wrap;
+  min-width: 10px;
+}
+
+.flex-item {
+  width: 300px;
+  margin: 50px;
+  background-color: rgba(0, 0, 0, 0.76);
+  border: 2px solid rgb(0, 0, 2);
+  color: white;
+  font-size: 2rem;
+}
+
+.flex-item-1 {
+  text-align: center;
+}
+
+.flex-item-2 {
+  min-height: 200px;
+  text-align: center;
+}
+
+.flex-item-3 {
+  min-height: 200px;
+  text-align: center;
+}
+
+.historia-mision-vision {
+  display: block;
+}
+
+.flex-empresa {
+  background-color: rgba(206, 199, 236, 0.493);
+  border: 2px solid rgb(0, 0, 2);
+}
+
+.historia-empresa {
+  text-align: center;
+  margin-bottom: 2rem;
+  margin-left: 3rem;
+  margin-right: 3rem;
+}
+
+.mision-empresa {
+  text-align: center;
+  margin-bottom: 2rem;
+  margin-left: 3rem;
+  margin-right: 3rem;
+}
+
+.vision-empresa {
+  text-align: center;
+  margin-bottom: 2rem;
+  margin-left: 3rem;
+  margin-right: 3rem;
+}
+
+.carousel-inner {
+  display: flex;
+  justify-content: start;
+  margin-left: 26%;
+}
+
+.flex-contacto {
+  display: flex;
+  justify-content: center;
+  margin-top: 3rem;
+}
+
+.contacto {
+  text-align: center;
+  background-color: rgba(206, 199, 236, 0.493);
+  border: 2px solid rgb(0, 0, 2);
+  margin-top: 2rem;
+  font-size: 2rem;
+}
+
+.formulario {
+  margin-top: 2rem;
+  background-color: rgba(4, 46, 94, 0.555);
+  border: 3px solid black;
+  text-align: end;
+  margin-left: 1rem;
+  margin-right: 1rem;
+}
+
+.nombre-formulario {
+  margin-bottom: 0.5cm;
+}
+
+.apellido-formulario {
+  margin-bottom: 0.5cm;
+}
+
+.mail-formulario {
+  margin-bottom: 0.5cm;
+}
+
+.boton-formulario {
+  text-align: center;
+}
+
+.ubicacion {
+  margin-top: 5rem;
+  margin-bottom: 7rem;
+  margin-left: 3rem;
+  margin-right: 3rem;
+}
+
+.productos {
+  display: flex;
+  justify-content: center;
+  gap: 1rem;
+  flex-wrap: wrap;
+  text-align: center;
+}
+
+.producto1 {
+  display: flex;
+  flex: 0 1 300px;
+  flex-direction: column;
+  border-radius: 1rem;
+  padding: 2rem;
+  margin-top: 2rem;
+  background-color: rgba(206, 199, 236, 0.493);
+  border: 2px solid rgb(0, 0, 2);
+}
+
+.producto1 button {
+  background: rgb(255, 255, 255);
+  color: rgb(0, 0, 0);
+  padding: 0.5rem;
+  border: none;
+  border-radius: 1rem;
+  font-size: 1.2rem;
+  cursor: pointer;
+}
+
+.producto1 img {
+  order: -1;
+  align-self: center;
+  max-width: 300px;
+  min-width: 300px;
+}
+
+.img {
+  width: 250px;
+  height: 250px;
+}
+
+.preguntas-frecuentes {
+  display: block;
+}
+
+.flex-pregunta {
+  background-color: rgba(206, 199, 236, 0.493);
+  border: 2px solid rgb(0, 0, 2);
+}
+
+.preguntas-frecuentes1 {
+  margin-top: 1cm;
+  margin-right: 2cm;
+  margin-left: 2cm;
+}
+
+.preguntas-frecuentes2 {
+  margin-top: 1cm;
+  margin-right: 2cm;
+  margin-left: 2cm;
+}
+
+.preguntas-frecuentes3 {
+  margin-top: 1cm;
+  margin-right: 2cm;
+  margin-left: 2cm;
+}
+
+.preguntas-frecuentes4 {
+  margin-top: 1cm;
+  margin-right: 2cm;
+  margin-left: 2cm;
+}
+
+/*# sourceMappingURL=styles.css.map */

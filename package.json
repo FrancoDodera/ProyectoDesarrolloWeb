@@ -1,0 +1,20 @@
+{
+  "name": "entrega-final-desarollo-web",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "compile": "sass --watch scss/style.scss css/styles.css"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/FrancoDodera/ProyectoDesarrolloWeb.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/FrancoDodera/ProyectoDesarrolloWeb/issues"
+  },
+  "homepage": "https://github.com/FrancoDodera/ProyectoDesarrolloWeb#readme"
+}
